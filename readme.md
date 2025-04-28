@@ -11,7 +11,7 @@ The focus is to ensure the codebase remains organized, scalable, and easy to mai
 Because of time constraints and solo development, the design thinking for this project emphasizes:
 
 - **Core functionality first**  
-  Priority is placed on fulfilling user requirements and delivering the main features early.  
+  - Priority is placed on fulfilling user requirements and delivering the main features early.  
   - Focus is maintained to avoid over-engineering and prevent deviation from user requirements.  
   - Enhancements, optimizations, refactoring and extras are considered secondary and only implemented if truly needed.
 
@@ -40,14 +40,14 @@ Because of time constraints and solo development, the design thinking for this p
 
 ## Tech Stack and Patterns Used
 
-- **ASP.NET Core** – Backend framework
-- **Entity Framework Core (EF Core)** – Object-Relational Mapping (ORM)
-- **PostgreSQL** – Primary database
-- **Autofac** – Dependency injection container
-- **Clean Architecture** – Project organization pattern
-- **CQRS (Command Query Responsibility Segregation)** – Separation of read/write operations
-- **MediatR** – Mediator pattern implementation for request handling
-- **KISS Principle (Keep It Simple, Stupid)** – Focus on simplicity and avoiding unnecessary complexity
+- **ASP.NET Core** 
+- **Entity Framework Core (EF Core)** 
+- **PostgreSQL** 
+- **Autofac** 
+- **Clean Architecture** 
+- **CQRS (Command Query Responsibility Segregation)** 
+- **MediatR** 
+- **KISS Principle (Keep It Simple, Stupid)** 
 
 ---
 
@@ -64,16 +64,14 @@ Because of time constraints and solo development, the design thinking for this p
 
 After cloning the repository:
 
-1. Navigate to the `backend/` folder:
-    ```bash
-    cd backend
-    ```
+1. Navigate to the `/cafe-employee-backend` folder:
+   
 
 2. Restore all NuGet packages:
     ```bash
     dotnet restore
     ```
-
+  
 3. Update your database connection string:
     - File: `CafeEmployee.API/appsettings.json`
     - Modify the `ConnectionStrings` section to match your local PostgreSQL server.
