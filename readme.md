@@ -83,6 +83,8 @@ After cloning the repository:
 
 5. Run the API project:
     ```bash
+    dotnet clean src/CafeEmployee.API
+    dotnet build src/CafeEmployee.API
     dotnet run --project src/CafeEmployee.API
     ```
 
