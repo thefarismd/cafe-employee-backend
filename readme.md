@@ -78,12 +78,12 @@ After cloning the repository:
 
 4. Apply the database migrations (if the database does not exist yet):
     ```bash
-    dotnet ef database update --project CafeEmployee.Infrastructure --startup-project CafeEmployee.API
+    dotnet ef database update --project src/CafeEmployee.Infrastructure --startup-project src/CafeEmployee.API
     ```
 
 5. Run the API project:
     ```bash
-    dotnet run --project CafeEmployee.API
+    dotnet run --project src/CafeEmployee.API
     ```
 
 
